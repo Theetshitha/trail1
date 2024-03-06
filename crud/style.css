@@ -1,0 +1,85 @@
+body{
+ 
+    width: 90%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+   
+}
+
+ 
+#div_form{
+    width: 25%;
+
+   
+
+}
+
+input{
+    width: 71%;
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border:none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#div_table{
+    width: 70%; 
+ 
+}
+
+table{
+    width: 100%;
+    border: 1px solid black;
+
+}
+td{
+    /* border:1px solid rgb(204,200,200); */
+    text-align: left;
+    padding: 8px 15px;
+    border: 1px solid black;
+
+}
+th{
+    /* border:1px solid rgb(7, 1, 1); */
+    background-color: rgba(232, 245, 118, 0.72);
+    border: 1px solid black;
+
+
+}
+tr{
+    border:1px solid rgb(7, 1, 1);
+    background-color: rgba(177, 228, 230, 0.72);
+
+}
+tr:nth-child(odd){
+ color: white;
+ background-color: rgba(60, 86, 126, 0.72);
+}
+
+#edit{
+    border:1px solid rgb(204,200,200);
+    
+}
+
+#actions{
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+    text-align: center;
+}
